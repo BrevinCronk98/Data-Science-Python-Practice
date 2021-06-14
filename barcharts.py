@@ -27,8 +27,8 @@ from numpy.lib.histograms import histogram
 
 # plt.bar([x + 5 for x in histogram.keys()], # Shifts bars right by a value of 5
 # histogram.values(),                        # Gives each bar its correct height
-# 10,                                        #Give each bar a width of 10
-# edgecolor=(0, 0, 0))                       #Black edges for each bar
+# 10,                                        # Give each bar a width of 10
+# edgecolor=(0, 0, 0))                       # Black edges for each bar
 
 # plt.axis([-5, 105, 0, 5])                  # Gives the x-axis range of -5 to 105
 #                                            # The second pair of numbers is the y-axis range, in this case, 0, to 5
@@ -38,3 +38,5 @@ from numpy.lib.histograms import histogram
 # plt.ylabel("# of Students")
 # plt.title("Distibution of Exam 1 Grades")
 # plt.show()
+#---------------------------------------------------#
+
